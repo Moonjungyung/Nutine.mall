@@ -11,7 +11,7 @@ table,thead,tbody,tfoot,tr,th,ul,ol,li,dt,dd,
 form,fieldset,legend,input,select,option,button,label,textarea {
     font-family: 'Noto Sans KR', sans-serif;
     margin:0; padding: 0; line-height: 1.0;
-    font-size: 16px; font-style: normal; font-weight: normal;
+    font-size: 16px; font-style: normal; font-weight: 500;
     text-decoration: none;
 }
 th {text-align: left;}

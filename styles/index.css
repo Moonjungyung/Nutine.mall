@@ -1,0 +1,213 @@
+/* main */
+main {}
+/* 1. visual */
+main #visual {}
+main #visual #v_slider {}
+main #visual #v_slider .v_wrapper {}
+main #visual #v_slider .v_wrapper .swiper-slide {}
+main #visual #v_slider .v_wrapper .swiper-slide a {}
+main #visual #v_slider .v_wrapper .swiper-slide a img {width: 100%;}
+main #visual #v_slider .v_wrapper .slider1 {}
+main #visual #v_slider .v_wrapper .slider2 {}
+main #visual #v_slider .v_wrapper .slider3 {}
+/* 2. new */ /* 3. best */
+/* 2~3번 title 단체선택자 */
+main #new {padding: 100px 60px;}
+main section > .title {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+main section > .title .title_frm {
+    display: flex; flex-flow: row nowrap;
+    align-items: end;
+}
+main section > .title .title_frm h2 {
+    font-size: 3.157rem; color: #8DA4D0;
+    font-weight: 700; letter-spacing: -0.02em;
+}
+main section > .title .title_frm p {
+    padding-left: 10px; color: #868686;
+}
+main section > .title a {}
+main section > .title a img {}
+main section .swiper {padding-top: 60px;}
+main section .swiper .n_wrapper {}
+main section .swiper .n_wrapper .swiper-slide {}
+/* 2~3번 슬라이더 단체선택자 */
+main section .swiper .swiper-button-prev {
+    background: url(../img/icon14.png);
+    background-repeat: no-repeat;
+    top: 50%; transform: translateY(-50%);
+}
+main section .swiper .swiper-button-next {
+    background: url(../img/icon2.png);
+    background-repeat: no-repeat;
+    top: 50%; transform: translateY(-50%);
+}
+main section .swiper .swiper-button-prev::after,
+main section .swiper .swiper-button-next::after {display: none;}
+main section .swiper .swiper-wrapper .swiper-slide {}
+main section .swiper .swiper-wrapper .swiper-slide a {}
+main section .swiper .swiper-wrapper .swiper-slide a img {}
+main section .swiper .swiper-wrapper .swiper-slide .contents {
+    height: 154px;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between;
+}
+main section .swiper .swiper-wrapper .swiper-slide .contents .brand_name {
+    padding: 8px 0 16px 0;
+}
+main section .swiper .swiper-wrapper .swiper-slide .contents h3 {
+    font-size: 1.333rem; letter-spacing: -0.02em;
+}
+main section .swiper .swiper-wrapper .swiper-slide .contents .info {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main section .swiper .swiper-wrapper .swiper-slide .contents .info>* {letter-spacing: -0.02em;}
+main section .swiper .swiper-wrapper .swiper-slide .contents .info .price del {color: #868686; text-decoration: line-through; }
+main section .swiper .swiper-wrapper .swiper-slide .contents .info .price span {font-size: 1.333rem; font-weight: 700;}
+main section .swiper .swiper-wrapper .swiper-slide .contents .info .price em {font-size: 1.333rem; font-weight: 700; color: #C71111;}
+main section .swiper .swiper-wrapper .swiper-slide .contents .info a {}
+/* active */
+main #best {
+    padding: 50px 60px 100px 60px;
+}
+main #best .title_sub {}
+main #best .title_sub a {
+    padding: 8px 20px;
+    background-color: #F3F3F3;
+    border-radius: 4px;
+}
+main #best .title_sub .active {
+    background-color: #F8CACC;
+    border-radius: 4px;
+}
+/* 4. bg */
+main #bg {
+    background: url(../img/bg.jpg) fixed no-repeat;
+    background-size: cover;
+    width: 100%; height: 100px;
+}
+/* 5. adver */
+main #adver {
+    padding: 100px 60px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: center;
+}
+main #adver .youtube {}
+main #adver .youtube iframe {}
+main #adver .contents {
+    padding-left: 153px;
+}
+main #adver .contents .md {
+    display: flex; flex-flow: row nowrap;
+    align-items: center;
+}
+main #adver .contents .md span {
+    display: inline-block; content: '';
+    width: 92px; height: 1px;
+    background-color: #000; margin-right: 8px;
+}
+main #adver .contents .md p {
+    font-weight: 300; letter-spacing: -0.02em;
+}
+main #adver .contents .title {
+    display: flex; flex-flow: column nowrap;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #000;
+}
+main #adver .contents .title h3 {
+    letter-spacing: -0.02em; font-size: 2.369rem;
+    padding: 38px 0; line-height: 54px;
+}
+main #adver .contents .title h3 em {
+    font-weight: 700; letter-spacing: -0.02em; font-size: 2.369rem;}
+    main #adver .contents .title h3 span {
+        font-weight: 300; letter-spacing: -0.02em; font-size: 2.369rem;
+    }
+    main #adver .contents .title p {
+        font-size: 1.333rem; font-weight: 300;
+    }
+main #adver .contents .txt > * {
+    line-height: 34px; font-weight: 300;
+}
+main #adver .contents .txt {
+    padding: 40px 0; border-bottom: 1px solid #000;
+}
+main #adver .contents .txt h3 {
+    font-weight: 500; font-size: 1.333rem;
+    padding-bottom: 26px;
+}
+main #adver .contents .txt .hashtag {}
+main #adver .contents .txt .point {}
+/* 6. reivew */
+main #reivew {
+    padding: 50px 60px 100px 60px;
+    display: flex; flex-flow: row nowrap;
+}
+main #reivew > .r_title {
+    display: flex; flex-flow: column nowrap;
+    align-items: baseline; padding-right: 60px;
+}
+main #reivew > .r_title h2 {
+    font-size: 3.157rem; font-weight: 700; color: #8DA4D0;
+    line-height: 56px; letter-spacing: -0.02em;
+}
+main #reivew .r_title p {
+    color: #868686; padding-top: 34px;
+    line-height: 24px; letter-spacing: -0.02em;
+}
+main #reivew .contents {
+    display: flex; flex-flow: row nowrap;
+
+}
+main #reivew .contents ul {
+    width: 475px;
+    margin-right: 20px;
+}
+main #reivew .contents ul li {
+}
+main #reivew .contents ul li a {}
+main #reivew .contents ul li a p {}
+main #reivew .contents ul li a p img {}
+main #reivew .contents ul li a > .title {
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between;
+    padding-bottom: 26px;
+    margin-bottom: 16px; height: 140px;
+}
+main #reivew .contents ul li a .title .brand_name {
+    letter-spacing: -0.02em; padding-top: 8px;
+}
+main #reivew .contents ul li a .title h3 {
+    font-size: 1.333rem; letter-spacing: -0.02em;
+}
+main #reivew .contents ul li a .title .info {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main #reivew .contents ul li a .title .info p {
+    font-weight: 700; letter-spacing: -0.02em;
+}
+main #reivew .contents ul li a .title .info p img {}
+main #reivew .contents ul li a .txt {
+    background-color: rgba(248, 202, 204, 0.5);
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+main #reivew .contents ul li a .txt p {
+    line-height: 23px; letter-spacing: -0.02em;
+    padding-bottom: 16px;
+}
+main #reivew .contents ul li a .txt .user_info {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main #reivew .contents ul li a .txt .user_info .name {}
+main #reivew .contents ul li a .txt .user_info .score {}
+main #reivew .contents ul li a .txt .user_info .score span {}
+main #reivew .contents ul li a .txt .user_info .score img {}
+main #reivew .contents ul li a .txt .user_info .score img:last-child {margin-right: 50px;}

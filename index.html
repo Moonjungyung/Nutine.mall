@@ -32,56 +32,61 @@
             </div>
         </div>
         <nav>
-            <ul class="menu">
-                <li><a href="#">ALL</a></li>
-                <li><a href="#">브랜드별</a>
-                    <ul class="sub">
-                        <li>비원츠</li>
-                        <li>스칼프메드</li>
-                        <li>리프레즈</li>
-                        <li>티로그</li>
-                        <li>홍삼진</li>
-                        <li>뉴틴</li>
-                        <li>컨디션</li>
-                        <li>헛개수</li>
-                        <li>새싹보리</li>
-                        <li>클레더마</li>
-                    </ul>
-                </li>
-                <li><a href="#">베스트</a>
-                    <ul class="sub">
-                        <li>판매랭킹</li>
-                    </ul>
-                </li>
-                <li><a href="#">카테고리</a>
-                    <ul class="sub">
-                        <li>전체보기</li>
-                        <li>뷰티</li>
-                        <li>헤어</li>
-                        <li>건강식품</li>
-                        <li>음료</li> 
-                    </ul>
-                </li>
-            </ul>
-            <ul class="utility">
-                <li><a href="#">이벤트&혜택</a>
-                    <ul class="sub">
-                        <li>이벤트</li>
-                        <li>쿠폰 / 멤버쉽</li>
-                        <li>리뷰</li>
-                    </ul>
-                </li>
-                <li><a href="#">고객센터</a>
-                    <ul class="sub">
-                        <li>1:1문의</li>
-                        <li>FAQ</li>
-                        <li>공지</li>
-                        <li>뉴스</li>
-                        <li>제휴/구매</li>
-                        <li>문의</li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="contents_m">
+                <ul class="menu">
+                    <li class="btn"><a href="#">ALL</a></li>
+                    <li><a href="#">브랜드별</a>
+                        <ul class="sub">
+                            <li><a href="#">비원츠</a></li>
+                            <li><a href="#">스칼프메드</a></li>
+                            <li><a href="#">리프레즈</a></li>
+                            <li><a href="#">티로그</a></li>
+                            <li><a href="#">홍삼진</a></li>
+                            <li><a href="#">뉴틴</a></li>
+                            <li><a href="#">컨디션</a></li>
+                            <li><a href="#">헛개수</a></li>
+                            <li><a href="#">새싹보리</a></li>
+                            <li><a href="#">클레더마</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">베스트</a>
+                        <ul class="sub">
+                            <li><a href="#">판매랭킹</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">카테고리</a>
+                        <ul class="sub">
+                            <li><a href="#">전체보기</a></li>
+                            <li><a href="#">뷰티</a></li>
+                            <li><a href="#">헤어</a></li>
+                            <li><a href="#">건강식품</a></li>
+                            <li><a href="#">음료</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="content_u">
+                <ul class="utility">
+                    <li><a href="#">이벤트&혜택</a>
+                        <ul class="sub">
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">쿠폰/멤버쉽</a></li>
+                            <li><a href="#">리뷰</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">고객센터</a>
+                        <ul class="sub">
+                            <li><a href="#">1:1문의</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">공지</a></li>
+                            <li><a href="#">뉴스</a></li>
+                            <li><a href="#">제휴/구매</a></li>
+                            <li><a href="#">문의</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav_bg"></div>
         </nav>
     </header>
     <main>
@@ -96,8 +101,10 @@
         </section>
         <section id="new">
             <div class="title">
-                <h2>NEW PRODUCTS</h2>
-                <p>이노앤에서 처음 선보이는 제품들을 만나보세요.</p>
+                <div class="title_frm">
+                    <h2>NEW PRODUCTS</h2>
+                    <p>이노앤에서 처음 선보이는 제품들을 만나보세요.</p>
+                </div>
                 <a href="#"><img src="./img/icon1.png" alt=""></a>
             </div>
             <div class="swiper" id="n_slider">
@@ -105,12 +112,16 @@
                     <div class="swiper-slide slider1">
                         <a href="#"><img src="./img/new1.jpg" alt=""></a>
                         <div class="contents">
-                            <p class="brand_name">티로그</p>
-                            <h3>[미미미누x티로그] 티로그 제주청귤 12병+복숭아맛 12병 (총 24병)</h3>
-                            <div class="price">
-                                <del>52,800원</del>
-                                <span>19,900원</span>
-                                <em>62%</em>
+                            <div class="content_title">
+                                <p class="brand_name">티로그</p>
+                                <h3>[미미미누x티로그] 티로그 제주청귤 12병+복숭아맛 12병 (총 24병)</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>52,800원</del>
+                                    <span>19,900원</span>
+                                    <em>62%</em>
+                                </div>
                                 <a href="#"><img src="img/icon6.png" alt=""></a>
                             </div>
                         </div>
@@ -118,12 +129,16 @@
                     <div class="swiper-slide slider2">
                         <a href="#"><img src="./img/new2.jpg" alt=""></a>
                         <div class="contents">
-                            <p class="brand_name">비원츠</p>
-                            <h3>[수분밀착] 비원츠 스킨핏 에센스 수분 선크림 50ml</h3>
-                            <div class="price">
-                                <del>20,000원</del>
-                                <span>22,500원</span>
-                                <em>9%</em>
+                            <div class="content_title">
+                                <p class="brand_name">비원츠</p>
+                                <h3>[수분밀착] 비원츠 스킨핏 에센스 수분 선크림 50ml</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>20,000원</del>
+                                    <span>22,500원</span>
+                                    <em>9%</em>
+                                </div>
                                 <a href="#"><img src="img/icon6.png" alt=""></a>
                             </div>
                         </div>
@@ -131,12 +146,16 @@
                     <div class="swiper-slide slider3">
                         <a href="#"><img src="./img/new3.jpg" alt=""></a>
                         <div class="contents">
-                            <p class="brand_name">비원츠</p>
-                            <h3>[투명톤업] 비원츠 스킨핏 에센스 톤업 선크림 50ml</h3>
-                            <div class="price">
-                                <del>25,000원</del>
-                                <span>22,500원</span>
-                                <em>9% </em>
+                            <div class="content_title">
+                                <p class="brand_name">비원츠</p>
+                                <h3>[투명톤업] 비원츠 스킨핏 에센스 톤업 선크림 50ml</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>25,000원</del>
+                                    <span>22,500원</span>
+                                    <em>9% </em>
+                                </div>
                                 <a href="#"><img src="img/icon6.png" alt=""></a>
                             </div>
                         </div>
@@ -144,12 +163,84 @@
                     <div class="swiper-slide slider4">
                         <a href="#"><img src="./img/new4.jpg" alt=""></a>
                         <div class="contents">
-                            <p class="brand_name">스칼프메드</p>
-                            <h3>[두피청정케어] 스칼프메드 블루 솔트 샴푸 소프트 400ml (중건성)</h3>
-                            <div class="price">
-                                <del>25,000원</del>
-                                <span>22,500원</span>
-                                <em>9%</em>
+                            <div class="content_title">
+                                <p class="brand_name">스칼프메드</p>
+                                <h3>[두피청정케어] 스칼프메드 블루 솔트 샴푸 소프트 400ml (중건성)</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>25,000원</del>
+                                    <span>22,500원</span>
+                                    <em>9%</em>
+                                </div>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="swiper-slide slider1">
+                        <a href="#"><img src="./img/best1.jpg" alt=""></a>
+                        <div class="contents">
+                            <div class="content_title">
+                                <p class="brand_name">뉴틴</p>
+                                <h3>[뉴틴] 코어핏 다이어트 3박스 (총 3개월분)</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>297,000원</del>
+                                    <span>179,000원</span>
+                                    <em>39%</em>
+                                </div>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider2">
+                        <a href="#"><img src="./img/best2.jpg" alt=""></a>
+                        <div class="contents">
+                            <div class="content_title">
+                                <p class="brand_name">스칼프메드</p>
+                                <h3>[3초 수분충전] 스칼프메드 블루 워터 트리트먼트200ml</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>20,000원</del>
+                                    <span>18,000원</span>
+                                    <em>9%</em>
+                                </div>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider3">
+                        <a href="#"><img src="./img/best3.jpg" alt=""></a>
+                        <div class="contents">
+                            <div class="content_title">
+                                <p class="brand_name">비원츠</p>
+                                <h3>[잔주름다리미] 비원츠 피토 콜라겐 아이크림스틱 20ml</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>34,000원</del>
+                                    <span>30,600원</span>
+                                    <em>9%</em>
+                                </div>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider4">
+                        <a href="#"><img src="./img/best4.jpg" alt=""></a>
+                        <div class="contents">
+                            <div class="content_title">
+                                <p class="brand_name">비원츠</p>
+                                <h3>[진정토너] 비원츠 시카 콜라겐 에센스 토너 200ml</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>30,000원</del>
+                                    <span>27,000원</span>
+                                    <em>9% </em>
+                                </div>
                                 <a href="#"><img src="img/icon6.png" alt=""></a>
                             </div>
                         </div> 
@@ -161,8 +252,10 @@
         </section>
         <section id="best">
             <div class="title">
-                <h2>BEST PRODUCTS</h2>
-                <p>이노앤에서 가장 잘 판매되는 상품을 소개합니다.</p>
+                <div class="title_frm">
+                    <h2>BEST PRODUCTS</h2>
+                    <p>이노앤에서 가장 잘 판매되는 상품을 소개합니다.</p>
+                </div>
                 <a href="#"><img src="./img/icon1.png" alt=""></a>
             </div>
             <div class="title_sub">
@@ -175,12 +268,16 @@
                     <div class="swiper-slide slider1">
                         <a href="#"><img src="./img/best1.jpg" alt=""></a>
                         <div class="contents">
-                            <p class="brand_name">뉴틴</p>
-                            <h3>[뉴틴] 코어핏 다이어트 3박스 (총 3개월분)</h3>
-                            <div class="price">
-                                <del>297,000원</del>
-                                <span>179,000원</span>
-                                <em>39%</em>
+                            <div class="content_title">
+                                <p class="brand_name">뉴틴</p>
+                                <h3>[뉴틴] 코어핏 다이어트 3박스 (총 3개월분)</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>297,000원</del>
+                                    <span>179,000원</span>
+                                    <em>39%</em>
+                                </div>
                                 <a href="#"><img src="img/icon6.png" alt=""></a>
                             </div>
                         </div>
@@ -188,12 +285,16 @@
                     <div class="swiper-slide slider2">
                         <a href="#"><img src="./img/best2.jpg" alt=""></a>
                         <div class="contents">
-                            <p class="brand_name">스칼프메드</p>
-                            <h3>[3초 수분충전] 스칼프메드 블루 워터 트리트먼트200ml</h3>
-                            <div class="price">
-                                <del>20,000원</del>
-                                <span>18,000원</span>
-                                <em>9%</em>
+                            <div class="content_title">
+                                <p class="brand_name">스칼프메드</p>
+                                <h3>[3초 수분충전] 스칼프메드 블루 워터 트리트먼트200ml</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>20,000원</del>
+                                    <span>18,000원</span>
+                                    <em>9%</em>
+                                </div>
                                 <a href="#"><img src="img/icon6.png" alt=""></a>
                             </div>
                         </div>
@@ -201,12 +302,16 @@
                     <div class="swiper-slide slider3">
                         <a href="#"><img src="./img/best3.jpg" alt=""></a>
                         <div class="contents">
-                            <p class="brand_name">비원츠</p>
-                            <h3>[잔주름다리미] 비원츠 피토 콜라겐 아이크림스틱 20ml</h3>
-                            <div class="price">
-                                <del>34,000원</del>
-                                <span>30,600원</span>
-                                <em>9%</em>
+                            <div class="content_title">
+                                <p class="brand_name">비원츠</p>
+                                <h3>[잔주름다리미] 비원츠 피토 콜라겐 아이크림스틱 20ml</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>34,000원</del>
+                                    <span>30,600원</span>
+                                    <em>9%</em>
+                                </div>
                                 <a href="#"><img src="img/icon6.png" alt=""></a>
                             </div>
                         </div>
@@ -214,12 +319,84 @@
                     <div class="swiper-slide slider4">
                         <a href="#"><img src="./img/best4.jpg" alt=""></a>
                         <div class="contents">
-                            <p class="brand_name">비원츠</p>
-                            <h3>[진정토너] 비원츠 시카 콜라겐 에센스 토너 200ml</h3>
-                            <div class="price">
-                                <del>30,000원</del>
-                                <span>27,000원</span>
-                                <em>9% </em>
+                            <div class="content_title">
+                                <p class="brand_name">비원츠</p>
+                                <h3>[진정토너] 비원츠 시카 콜라겐 에센스 토너 200ml</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>30,000원</del>
+                                    <span>27,000원</span>
+                                    <em>9% </em>
+                                </div>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="swiper-slide slider5">
+                        <a href="#"><img src="./img/new1.jpg" alt=""></a>
+                        <div class="contents">
+                            <div class="content_title">
+                                <p class="brand_name">티로그</p>
+                                <h3>[미미미누x티로그] 티로그 제주청귤 12병+복숭아맛 12병 (총 24병)</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>52,800원</del>
+                                    <span>19,900원</span>
+                                    <em>62%</em>
+                                </div>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider6">
+                        <a href="#"><img src="./img/new2.jpg" alt=""></a>
+                        <div class="contents">
+                            <div class="content_title">
+                                <p class="brand_name">비원츠</p>
+                                <h3>[수분밀착] 비원츠 스킨핏 에센스 수분 선크림 50ml</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>20,000원</del>
+                                    <span>22,500원</span>
+                                    <em>9%</em>
+                                </div>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider7">
+                        <a href="#"><img src="./img/new3.jpg" alt=""></a>
+                        <div class="contents">
+                            <div class="content_title">
+                                <p class="brand_name">비원츠</p>
+                                <h3>[투명톤업] 비원츠 스킨핏 에센스 톤업 선크림 50ml</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>25,000원</del>
+                                    <span>22,500원</span>
+                                    <em>9% </em>
+                                </div>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider8">
+                        <a href="#"><img src="./img/new4.jpg" alt=""></a>
+                        <div class="contents">
+                            <div class="content_title">
+                                <p class="brand_name">스칼프메드</p>
+                                <h3>[두피청정케어] 스칼프메드 블루 솔트 샴푸 소프트 400ml (중건성)</h3>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <del>25,000원</del>
+                                    <span>22,500원</span>
+                                    <em>9%</em>
+                                </div>
                                 <a href="#"><img src="img/icon6.png" alt=""></a>
                             </div>
                         </div> 
@@ -231,53 +408,253 @@
         </section>
         <section id="bg"></section>
         <section id="adver">
-            <div class="youtube"><iframe width="1123" height="632" src="https://www.youtube.com/embed/pc0mxbz9CMs?autoplay=1&mute=1" title="[컨디션X박재범] 젤로 Park 깨는 판타STICK한 컨디션 스틱 TVCF (Feat.🖤MVP&amp;홀리뱅💜)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <div class="youtube"><iframe width="671" height="600" src="https://www.youtube.com/embed/pc0mxbz9CMs?autoplay=1&mute=1" title="[컨디션X박재범] 젤로 Park 깨는 판타STICK한 컨디션 스틱 TVCF (Feat.🖤MVP&amp;홀리뱅💜)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
             <div class="contents">
                 <div class="md">
                     <span></span>
                     <p>MD’s PICK</p>
                 </div>
                 <div class="title">
-                    <h3>23년 컨디션 NEW 모델 박재범의 <br>
+                    <h3><span>23년 컨디션 NEW 모델 박재범의</span> <br>
                         <em>'젤로 판타스틱한 상태'</em> <br>
-                        <span>광고를 소개합니다🎉🎉</span> </h3>
+                        광고를 소개합니다 &#x1F389; &#x1F389;
+                    </h3>
+                    <p>컨디션 스틱을 더 알고 싶다면? 영상 설명 링크를 확인하세요!</p>
                 </div>
                 <div class="txt">
-                    <h3>⚡️감상 포인트⚡️</h3>
-                    <p class="hashtag"></p>
+                    <h3>&#x26A1;감상 포인트&#x26A1;</h3>
+                    <p class="hashtag">#jaypark #morevision #holybang</p>
                     <p class="point">
-                        ✔️ Jay Park & WOOGIE 작·편곡, 박재범이 직접 가창한 트렌디한 멜로디의 컨디션 CM 송~🎶 <br>
-                        ✔️ Jay Park & MVP 개발한 판타STICK한 안무! 🤸‍♀️ <br>
-                        ✔️ 사장님과 @Morevision 소속 @MVP&@홀리뱅의 환상케미❤️‍🔥 <br>
+                        &#x2714; Jay Park & WOOGIE 작·편곡, 박재범이 직접 가창한 트렌디한 멜로디의 컨디션 CM 송~&#x1F3B5; <br>
+                        &#x2714; Jay Park & MVP 개발한 판타STICK한 안무! &#x1F483; <br>
+                        &#x2714; 사장님과 @Morevision 소속 @MVP&@홀리뱅의 환상케미 &#x1F49D; <br>
                     </p>
                 </div>
             </div>
         </section>
-        <section id="reivew"></section>
+        <section id="reivew">
+            <div class="r_title">
+                <h2>CUSTOMER <br>
+                    REVEIW
+                </h2>
+                <p>제품을 구매한 250만명의 <br>
+                        리뷰를 확인해 보세요!
+                </p>
+            </div>
+            <div class="contents">
+                <ul>
+                    <li><a href="#">
+                        <p><img src="./img/customer1.jpg" alt=""></p>
+                        <div class="title">
+                            <p class="brand_name">티로그</p>
+                            <h3>[티로그] 제주청귤 / 납작복숭아 아이스티 홍차 500ml</h3>
+                            <div class="info">
+                                <p>리뷰(898)</p>
+                                <p>
+                                    <img src="./img/icon12.png" alt="">
+                                    <span>(5.0)</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="txt line">
+                            <p>처음 시음행사때 먹고 맛있어서 쭉~~~주문해서 먹고있어요냉장고 쟁여놓고 시원하게 먹으니 너무 맛있어요</p>
+                            <ul class="user_info">
+                                <li class="name">김**</li>
+                                <li class="score">
+                                    <span>아주 좋아요</span>
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                        <p><span></span></p>
+                        <div class="txt">
+                            <p>여름에 아이스티 없이 못 사는 저에게 제격이에요ㅠㅠ 너무 달고 맛있어요 제로칼로리가 이렇게 달 수 있다니 충격적입니다.. 정말 매일매일 마시고 운동할 때도 마시고 있어요! 다이어터들에게 정말 좋아요</p>
+                            <ul class="user_info">
+                                <li class="name">오**</li>
+                                <li class="score">
+                                    <span>아주 좋아요</span>
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">
+                        <p><img src="./img/customer2.jpg" alt=""></p>
+                        <div class="title">
+                            <p class="brand_name">비원츠</p>
+                            <h3>[미연 Pick] 비원츠 아이세럼 스틱 15ml</h3>
+                            <div class="info">
+                                <p>리뷰(491)</p>
+                                <p>
+                                    <img src="./img/icon12.png" alt="">
+                                    <span>(4.7)</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="txt">
+                            <p>스틱형에 끈적임없이 사용하기 편한 제품이고, 냉장보괸 후 사용시 쿨링감이 있어서 더 편리하게 사용할 수 있어용</p>
+                            <ul class="user_info">
+                                <li class="name">김**</li>
+                                <li class="score">
+                                    <span>아주 좋아요</span>
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                        <p><span></span></p>
+                        <div class="txt">
+                            <p>진짜 아이제품 중요한데 크림은 좀 무겁다느껴져서 자꾸 빼먹게됐는데 이건 바르기도 편하고 산뜻하다고해야하나 암튼 손이 잘가서 좋은거같아요ㅋㅋㅋ원래도 세럼을 좋아함ㅋㅋㅋ</p>
+                            <ul class="user_info">
+                                <li class="name">강**</li>
+                                <li class="score">
+                                    <span>맘에 들어요</span>
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon13.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">
+                        <p><img src="./img/customer3.jpg" alt=""></p>
+                        <div class="title">
+                            <p class="brand_name">스칼프메드</p>
+                            <h3>[3초 수분충전] 스칼프메드 블루 워터 트리트먼트200ml</h3>
+                            <div class="info">
+                                <p>리뷰(1,544)</p>
+                                <p>
+                                    <img src="./img/icon12.png" alt="">
+                                    <span>(4.6)</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="txt">
+                            <p>지성두피인데 한통써보고 두통구매했어요소금샴푸로 정착하려고여♡떡짐덜하고 모발이 얇은데 볼륨감도 있는듯</p>
+                            <ul class="user_info">
+                                <li class="name">최**</li>
+                                <li class="score">
+                                    <span>아주 좋아요</span>
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                        <p><span></span></p>
+                        <div class="txt">
+                            <p>보라색통 꾸준히 쓰고있다가 블루캡슐도 효과좋고 소금성분이라 궁금해서 구매했습니다 머리 감을때 두피가 깨끗하게 씻겨지는 거같아요</p>
+                            <ul class="user_info">
+                                <li class="name">허**</li>
+                                <li class="score">
+                                    <span>아주 좋아요</span>
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                    <img src="./img/icon12.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </a></li>
+                </ul>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="top">
+            <h1><a href="#"><img src="./img/ft_logo1.png" alt="Nutine.mall"></a></h1>
+            <a href="#">회사소개</a>
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">사이트이용</a>
+            <a href="#">해외수출/제휴문의</a>
+        </div>
+        <address>
+            상호명 : 에이치케이이노엔(주) 대표자 : 곽달원 주소 : 충청북도 청주시 흥덕구 오송읍 오송생명2로 239 / / 서울지사 : 서울특별시 중구 을지로 100, 6층,7층,8층 (을지로2가, 파인에비뉴 에이동)
+            사업자등록번호 : 201-86-38914 사업자번호조회 통신판매업신고번호 : 2023-충북청주-1338
+            개인정보 보호책임자 : 진경철 FAX : 080-700-8802 TEL : 080-700-8802 E-mail : nutine@mynutine.com
+        </address>
+        <div class="btn">
+            <p class="copyright">Copyright© 2023 moonjungyung All rights reserved.</p>
+            <div class="f_logo">
+                <p>innovate New & Next</p>
+                <p><img src="./img/ft_logo2.png" alt=""></p>
+            </div>
+        </div>
+    </footer>
 </body>
 <!-- slider -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
 <script>
 // const 변수명 작성 = new Swiper('적용대상',{속성:값}, 속성:값);
 const v_slider = new Swiper('#v_slider', {
     //자동재생
-    autoplay:{delay:3000},
+    autoplay:{delay:4000},
     loop:true,
     effect:'fade', //제자리 자연스러운 변경 슬라이드
     // direction:'vertical'
 });
 const n_slider = new Swiper('#n_slider',{
-    autoplay:{delay:3000},
+    slidesPerView : 4,
+    slidesPerGroup: 4,
+    spaceBetween: 16,
+    centeredSlides: false,
+    autoplay:{
+        delay:4000,
+        disableOnInteraction:false,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
     loop:true,
     loopAdditionalSlides : 1,
-    slidesPerView : 'auto',
     loopedSlides: 1,
-    speed:800,
+    speed:1200,
     observer: true,
     observeParents: true,
-    disableOnInteraction:false,
+})
+const b_slider = new Swiper('#b_slider',{
+    slidesPerView : 4,
+    slidesPerGroup: 4,
+    spaceBetween: 16,
+    centeredSlides: false,
+    autoplay:{
+        delay:4000,
+        disableOnInteraction:false,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    loop:true,
+    loopAdditionalSlides : 1,
+    loopedSlides: 1,
+    speed:1200,
+    observer: true,
+    observeParents: true,
 })
 </script>
 </html>
