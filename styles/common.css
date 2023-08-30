@@ -12,7 +12,7 @@ header .title h1 {}
 header .title h1 img {}
 /* form */
 header .title #search_frm {
-    background-color: #C0D9F9;
+    background-color: #F9DBD1;
     border-radius: 50px;
 }
 header .title #search_frm fieldset {
@@ -22,7 +22,7 @@ header .title #search_frm fieldset {
     align-items: center;
 }
 header .title #search_frm fieldset input {
-    background-color: #C0D9F9;
+    background-color: #F9DBD1;
     width: 400px;
     }
 header .title #search_frm fieldset input::placeholder {
@@ -74,6 +74,7 @@ header nav div li .sub li a {
     font-size: 1rem;
     line-height: 40px;
     transition: all 0.3s;
+    padding: 0 10px;
 }
 header nav div li .sub li a:hover {
     color: #8DA4D0;

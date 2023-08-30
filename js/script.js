@@ -8,11 +8,13 @@ function sub_func (status){
     for(let i of sub){i.style.display = status}
 }
 sub_func('none')
-btn.addEventListener('click',function(){
+btn.addEventListener('click',function(e){
+    e.preventDefault()
     for(let i of sub){i.style.display ='block'}
     nav_bg.style.display = 'block'
 })
-btn.addEventListener('dblclick',function(){
+btn.addEventListener('dblclick',function(e){
+    e.preventDefault()
     for(let i of sub){i.style.display ='none'}
     nav_bg.style.display = 'none'
 })

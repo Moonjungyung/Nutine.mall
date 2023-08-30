@@ -1,3 +1,4 @@
+main, header, footer {min-width: 1920px;}
 /* main */
 main {}
 /* 1. visual */
@@ -72,7 +73,7 @@ main section .swiper .swiper-wrapper .swiper-slide .contents .info .price em {fo
 main section .swiper .swiper-wrapper .swiper-slide .contents .info a {}
 /* active */
 main #best {
-    padding: 50px 60px 100px 60px;
+    padding: 50px 60px 200px 60px;
 }
 main #best .title_sub {}
 main #best .title_sub a {
@@ -92,7 +93,7 @@ main #bg {
 }
 /* 5. adver */
 main #adver {
-    padding: 100px 60px;
+    padding: 200px 60px;
     display: flex; flex-flow: row nowrap;
     justify-content: center;
 }
