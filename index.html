@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutine mall | 뉴틴몰</title>
+    <!-- silder -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="파비콘.ico 경로" type="image/x-icon">
+    <link rel="icon" href="파비콘.ico 경로" type="image/x-icon">
+    <!-- style -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1><img src="./img/logo.png" alt="Nutine mall"></h1>
+            <form action="#" method="get" id="search_frm">
+                <fieldset>
+                    <legend class="skip">검색양식</legend>
+                    <input type="search" name="search_txt" placeholder="제로 칼로리 아이스티, 티로그 아이스티" autofocus>
+                    <button type="submit" id="search_btn"><img src="./img/icon9.png" alt="검색"></button>
+                </fieldset>
+            </form>
+            <div class="title_sub">
+                <a href="#"><img src="./img/icon8.png" alt=""></a>
+                <a href="#"><img src="./img/icon7.png" alt=""></a>
+                <a href="#"><img src="./img/icon10.png" alt=""></a>
+            </div>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">ALL</a></li>
+                <li><a href="#">브랜드별</a>
+                    <ul class="sub">
+                        <li>비원츠</li>
+                        <li>스칼프메드</li>
+                        <li>리프레즈</li>
+                        <li>티로그</li>
+                        <li>홍삼진</li>
+                        <li>뉴틴</li>
+                        <li>컨디션</li>
+                        <li>헛개수</li>
+                        <li>새싹보리</li>
+                        <li>클레더마</li>
+                    </ul>
+                </li>
+                <li><a href="#">베스트</a>
+                    <ul class="sub">
+                        <li>판매랭킹</li>
+                    </ul>
+                </li>
+                <li><a href="#">카테고리</a>
+                    <ul class="sub">
+                        <li>전체보기</li>
+                        <li>뷰티</li>
+                        <li>헤어</li>
+                        <li>건강식품</li>
+                        <li>음료</li> 
+                    </ul>
+                </li>
+            </ul>
+            <ul class="utility">
+                <li><a href="#">이벤트&혜택</a>
+                    <ul class="sub">
+                        <li>이벤트</li>
+                        <li>쿠폰 / 멤버쉽</li>
+                        <li>리뷰</li>
+                    </ul>
+                </li>
+                <li><a href="#">고객센터</a>
+                    <ul class="sub">
+                        <li>1:1문의</li>
+                        <li>FAQ</li>
+                        <li>공지</li>
+                        <li>뉴스</li>
+                        <li>제휴/구매</li>
+                        <li>문의</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="visual">
+            <div class="swiper" id="v_slider">
+                <div class="swiper-wrapper v_wrapper">
+                    <div class="swiper-slide slider1"><a href="#"><img src="./img/visual1.jpg" alt=""></a></div>
+                    <div class="swiper-slide slider2"><a href="#"><img src="./img/visual2.jpg" alt=""></a></div>
+                    <div class="swiper-slide slider3"><a href="#"><img src="./img/visual3.jpg" alt=""></a></div>
+                </div>
+            </div>
+        </section>
+        <section id="new">
+            <div class="title">
+                <h2>NEW PRODUCTS</h2>
+                <p>이노앤에서 처음 선보이는 제품들을 만나보세요.</p>
+                <a href="#"><img src="./img/icon1.png" alt=""></a>
+            </div>
+            <div class="swiper" id="n_slider">
+                <div class="swiper-wrapper n_wrapper">
+                    <div class="swiper-slide slider1">
+                        <a href="#"><img src="./img/new1.jpg" alt=""></a>
+                        <div class="contents">
+                            <p class="brand_name">티로그</p>
+                            <h3>[미미미누x티로그] 티로그 제주청귤 12병+복숭아맛 12병 (총 24병)</h3>
+                            <div class="price">
+                                <del>52,800원</del>
+                                <span>19,900원</span>
+                                <em>62%</em>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider2">
+                        <a href="#"><img src="./img/new2.jpg" alt=""></a>
+                        <div class="contents">
+                            <p class="brand_name">비원츠</p>
+                            <h3>[수분밀착] 비원츠 스킨핏 에센스 수분 선크림 50ml</h3>
+                            <div class="price">
+                                <del>20,000원</del>
+                                <span>22,500원</span>
+                                <em>9%</em>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider3">
+                        <a href="#"><img src="./img/new3.jpg" alt=""></a>
+                        <div class="contents">
+                            <p class="brand_name">비원츠</p>
+                            <h3>[투명톤업] 비원츠 스킨핏 에센스 톤업 선크림 50ml</h3>
+                            <div class="price">
+                                <del>25,000원</del>
+                                <span>22,500원</span>
+                                <em>9% </em>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider4">
+                        <a href="#"><img src="./img/new4.jpg" alt=""></a>
+                        <div class="contents">
+                            <p class="brand_name">스칼프메드</p>
+                            <h3>[두피청정케어] 스칼프메드 블루 솔트 샴푸 소프트 400ml (중건성)</h3>
+                            <div class="price">
+                                <del>25,000원</del>
+                                <span>22,500원</span>
+                                <em>9%</em>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+        <section id="best">
+            <div class="title">
+                <h2>BEST PRODUCTS</h2>
+                <p>이노앤에서 가장 잘 판매되는 상품을 소개합니다.</p>
+                <a href="#"><img src="./img/icon1.png" alt=""></a>
+            </div>
+            <div class="title_sub">
+                <a href="#" class="active">BEAUTY</a>
+                <a href="#">HAIR</a>
+                <a href="#">HEALTH</a>
+            </div>
+            <div class="swiper" id="b_slider">
+                <div class="swiper-wrapper b_wrapper">
+                    <div class="swiper-slide slider1">
+                        <a href="#"><img src="./img/best1.jpg" alt=""></a>
+                        <div class="contents">
+                            <p class="brand_name">뉴틴</p>
+                            <h3>[뉴틴] 코어핏 다이어트 3박스 (총 3개월분)</h3>
+                            <div class="price">
+                                <del>297,000원</del>
+                                <span>179,000원</span>
+                                <em>39%</em>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider2">
+                        <a href="#"><img src="./img/best2.jpg" alt=""></a>
+                        <div class="contents">
+                            <p class="brand_name">스칼프메드</p>
+                            <h3>[3초 수분충전] 스칼프메드 블루 워터 트리트먼트200ml</h3>
+                            <div class="price">
+                                <del>20,000원</del>
+                                <span>18,000원</span>
+                                <em>9%</em>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider3">
+                        <a href="#"><img src="./img/best3.jpg" alt=""></a>
+                        <div class="contents">
+                            <p class="brand_name">비원츠</p>
+                            <h3>[잔주름다리미] 비원츠 피토 콜라겐 아이크림스틱 20ml</h3>
+                            <div class="price">
+                                <del>34,000원</del>
+                                <span>30,600원</span>
+                                <em>9%</em>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider4">
+                        <a href="#"><img src="./img/best4.jpg" alt=""></a>
+                        <div class="contents">
+                            <p class="brand_name">비원츠</p>
+                            <h3>[진정토너] 비원츠 시카 콜라겐 에센스 토너 200ml</h3>
+                            <div class="price">
+                                <del>30,000원</del>
+                                <span>27,000원</span>
+                                <em>9% </em>
+                                <a href="#"><img src="img/icon6.png" alt=""></a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+        <section id="bg"></section>
+        <section id="adver">
+            <div class="youtube"><iframe width="1123" height="632" src="https://www.youtube.com/embed/pc0mxbz9CMs?autoplay=1&mute=1" title="[컨디션X박재범] 젤로 Park 깨는 판타STICK한 컨디션 스틱 TVCF (Feat.🖤MVP&amp;홀리뱅💜)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <div class="contents">
+                <div class="md">
+                    <span></span>
+                    <p>MD’s PICK</p>
+                </div>
+                <div class="title">
+                    <h3>23년 컨디션 NEW 모델 박재범의 <br>
+                        <em>'젤로 판타스틱한 상태'</em> <br>
+                        <span>광고를 소개합니다🎉🎉</span> </h3>
+                </div>
+                <div class="txt">
+                    <h3>⚡️감상 포인트⚡️</h3>
+                    <p class="hashtag"></p>
+                    <p class="point">
+                        ✔️ Jay Park & WOOGIE 작·편곡, 박재범이 직접 가창한 트렌디한 멜로디의 컨디션 CM 송~🎶 <br>
+                        ✔️ Jay Park & MVP 개발한 판타STICK한 안무! 🤸‍♀️ <br>
+                        ✔️ 사장님과 @Morevision 소속 @MVP&@홀리뱅의 환상케미❤️‍🔥 <br>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="reivew"></section>
+    </main>
+    <footer></footer>
+</body>
+<!-- slider -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+// const 변수명 작성 = new Swiper('적용대상',{속성:값}, 속성:값);
+const v_slider = new Swiper('#v_slider', {
+    //자동재생
+    autoplay:{delay:3000},
+    loop:true,
+    effect:'fade', //제자리 자연스러운 변경 슬라이드
+    // direction:'vertical'
+});
+const n_slider = new Swiper('#n_slider',{
+    autoplay:{delay:3000},
+    loop:true,
+    loopAdditionalSlides : 1,
+    slidesPerView : 'auto',
+    loopedSlides: 1,
+    speed:800,
+    observer: true,
+    observeParents: true,
+    disableOnInteraction:false,
+})
+</script>
+</html>
