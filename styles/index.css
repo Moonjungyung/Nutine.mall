@@ -1,4 +1,4 @@
-main, header, footer {min-width: 1920px;}
+main, header, footer {min-width: 1900px;}
 /* main */
 main {}
 /* 1. visual */
@@ -68,7 +68,7 @@ main section .swiper .swiper-wrapper .swiper-slide .contents .info {
 }
 main section .swiper .swiper-wrapper .swiper-slide .contents .info>* {letter-spacing: -0.02em;}
 main section .swiper .swiper-wrapper .swiper-slide .contents .info .price del {color: #868686; text-decoration: line-through; }
-main section .swiper .swiper-wrapper .swiper-slide .contents .info .price span {font-size: 1.333rem; font-weight: 700;}
+main section .swiper .swiper-wrapper .swiper-slide .contents .info .price span {font-size: 1.333rem; font-weight: 700; padding: 0 4px;}
 main section .swiper .swiper-wrapper .swiper-slide .contents .info .price em {font-size: 1.333rem; font-weight: 700; color: #C71111;}
 main section .swiper .swiper-wrapper .swiper-slide .contents .info a {}
 /* active */

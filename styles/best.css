@@ -1,0 +1,106 @@
+header, main, footer {min-width: 1900px;}
+/* main */
+main {padding: 0 60px;}
+/* 1. visual */
+main #visual {
+    height: 600px; display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: flex-end;
+    background-image: url(../img/sub_visual.jpg);
+    padding: 0 55px 47px;
+}
+main #visual h1 {
+    font-size: 5rem; font-weight: 700;
+    color: #fff; bottom: 0; letter-spacing: -0.02em;
+}
+/* 2. recommend */
+main #recommend {
+    padding: 100px 0;
+}
+main #recommend .title {}
+main #recommend .title h2 {
+    font-size: 3.157rem; font-weight: 700;
+    text-align: center; padding-bottom: 25px; letter-spacing: -0.02em;
+}
+main #recommend .title p {
+    font-size: 1.333rem; text-align: center;
+    color: #868686; padding-bottom: 60px; letter-spacing: -0.02em;
+}
+main #recommend .contents {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main #recommend .contents .product {width: calc(25% - 48px / 4);}
+main #recommend .contents .product > a {}
+main #recommend .contents .product > a > img {width: 100%;}
+main #recommend .contents .product .info {}
+main #recommend .contents .product .info .txt {height: 124px;}
+main #recommend .contents .product .info .txt .brand_name {
+    padding: 8px 0 16px 0;
+}
+main #recommend .contents .product .info .txt h3 {
+    font-size: 1.333rem; line-height: 30px; letter-spacing: -0.02em;
+}
+main #recommend .contents .product .info .price {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+main #recommend .contents .product .info .price .price_info {}
+main #recommend .contents .product .info .price .price_info del {
+    text-decoration: line-through; color: #868686;
+}
+main #recommend .contents .product .info .price .price_info em {
+    font-size: 1.333rem; font-weight: 700; letter-spacing: -0.02em; padding: 0 4px;
+}
+main #recommend .contents .product .info .price .price_info span {
+    font-size: 1.333rem; font-weight: 700; color: #C71111; letter-spacing: -0.02em;
+}
+main #recommend .contents .product .info .price a {}
+main #recommend .contents .product .info .price a img {}
+/* 3. all */
+main #all {}
+main #all .title {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main #all .title h2 {
+    font-size: 3.157rem; font-weight: 700;
+    padding-bottom: 25px; letter-spacing: -0.02em;
+}
+main #all .title .select {}
+main #all .title .select #selling_point {}
+main #all .title .select #selling_point option {}
+main #all .contents {
+    display: flex; flex-flow: row wrap;
+    padding: 60px 0 100px 0;
+}
+main #all .contents .product {
+    width: calc(25% - 48px / 4);
+    margin-bottom: 60px; margin-right: 16px;
+}
+main #all .contents .product:nth-child(4n) {margin-right: 0;}
+main #all .contents .product > a {}
+main #all .contents .product > a img {width: 100%;}
+main #all .contents .product .info {}
+main #all .contents .product .info .txt {height: 124px;}
+main #all .contents .product .info .txt .brand_name {
+    padding: 8px 0 16px 0;
+}
+main #all .contents .product .info .txt h3 {
+    font-size: 1.333rem; line-height: 30px; letter-spacing: -0.02em;
+}
+main #all .contents .product .info .price {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+main #all .contents .product .info .price .price_info {}
+main #all .contents .product .info .price .price_info del {
+    text-decoration: line-through; color: #868686;
+}
+main #all .contents .product .info .price .price_info em {
+    font-size: 1.333rem; font-weight: 700; letter-spacing: -0.02em; padding: 0 4px;
+}
+main #all .contents .product .info .price .price_info span {
+    font-size: 1.333rem; font-weight: 700; color: #C71111; letter-spacing: -0.02em;
+}
+main #all .contents .product .info .price a {}
+main #all .contents .product .info .price a img {}

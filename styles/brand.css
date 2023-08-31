@@ -1,0 +1,192 @@
+body,html{
+    /* 스크롤 제어 애니메이션*/
+    scroll-behavior: smooth;
+}
+header, main, footer {
+    min-width : 1900px
+}
+/* main */
+main {}
+/* 1. brand */
+main #brand {padding: 100px 60px;}
+main #brand h2 {
+    text-align: center; font-size: 3.157rem; font-weight: 700;
+    padding-bottom: 50px; letter-spacing: -0.02em;
+}
+main #brand .category {}
+/* 단체선택자 */
+main #brand .category .top {padding-bottom: 23px;}
+main #brand .category div {
+    display: flex; flex-flow: row nowrap;
+    justify-content: center;
+}
+main #brand .category div a {
+    display: flex; flex-flow: column nowrap;
+    margin-right: 60px; align-items: center;
+    border-radius: 100px; filter: brightness(90%); transition: filter 0.3s;
+}
+main #brand .category div a:hover {
+    filter: brightness(100%) contrast(110%);
+}
+main #brand .category div a:nth-child(6),
+main #brand .category div a:last-child {margin-right: 0;}
+main #brand .category div a img {width: 100%;}
+main #brand .category div a span {
+    font-size: 1.333rem; font-weight: 700;
+    padding-top: 16px; letter-spacing: -0.02em;
+}
+/* 개인선택자 */
+main #brand .category .top {}
+main #brand .category .top a {}
+main #brand .category .top a img {width: 100%;}
+main #brand .category .top a span {}
+main #brand .category .btm {}
+main #brand .category .btm a  {}
+main #brand .category .btm a img {width: 100%;}
+main #brand .category .btm a img span {}
+/* 2. bg */
+main #bg {
+    background: url(../img/sub_routine.jpg) no-repeat;
+    text-align: center; padding: 100px 0;
+}
+main #bg .sub_title { 
+    color: #fff; letter-spacing: -0.02em;
+    font-size: 1.777rem; font-weight: 700; padding-bottom: 10px;
+}
+main #bg h2 {
+    color: #fff; letter-spacing: -0.02em;
+    font-size: 3.157rem; font-weight: 700;
+}
+main #bg .txt {
+    color: #fff; letter-spacing: -0.02em;
+    font-size: 1.333rem; line-height: 30px; padding: 63px 0;
+}
+main #bg .btn {}
+main #bg .btn a {
+    padding: 10px 20px; background-color: #fff;
+    border-radius: 50px; font-size: 1.333rem; transition: color 0.3s;
+    font-family: 'Outfit'; font-weight: 700;
+    margin-right: 30px; letter-spacing: -0.02em
+}
+main #bg .btn a:hover {
+    color: #8DA4D0;
+}
+main #bg .btn a:last-child {margin-right: 0;}
+/* 3. beautycare */
+/* 단체선택자 */
+main #beautycare,
+main #haircare,
+main #healthcare {padding: 100px 60px;}
+
+main #beautycare h2,
+main #haircare h2,
+main #healthcare h2 {text-align: center; padding-bottom: 75px;}
+
+main #beautycare h2 > em,
+main #haircare h2 > em,
+main #healthcare h2 > em {
+    font-size: 3.157rem; font-weight: 700;
+    font-family: 'Outfit'; letter-spacing: -0.02em
+}
+main #beautycare h2 > em > span,
+main #haircare h2 > em > span,
+main #healthcare h2 > em > span {
+    font-size: 3.157rem; font-weight: 700; color: #8DA4D0;
+    font-family: 'Outfit'; letter-spacing: -0.02em
+}
+main #beautycare h2 > span,
+main #haircare h2 > span,
+main #healthcare h2 > span {
+    font-size: 3.157rem; font-weight: 300;
+    font-family: 'Outfit'; letter-spacing: -0.02em
+}
+/* 개인선택자 */
+main #beautycare .img_frm {display: flex; flex-flow: row nowrap;}
+main #beautycare .img_frm > p {margin-right: 20px;}
+main #beautycare .img_frm p img {width: 100%;}
+main #beautycare .img_frm .right {}
+main #beautycare .img_frm .right p {}
+main #beautycare .img_frm .right p img {width: 100%;}
+main #beautycare .img_frm .right {}
+main #beautycare .img_frm .right li {}
+main #beautycare .img_frm .right li img {width: 100%;}
+main #beautycare .img_frm .right .txt {
+    background-color: #C0D9F9; margin-top: 20px;
+    border-radius: 10px; padding: 30px 34px;
+}
+main #beautycare .img_frm .right li .title {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main #beautycare .img_frm .right li .title h3 {
+    font-size: 2.369rem; font-weight: 700;
+    color: #fff; letter-spacing: -0.02em; padding-bottom: 30px;
+}
+main #beautycare .img_frm .right li .title h3 p {}
+main #beautycare .img_frm .right li .title h3 p img {width: 100%;}
+main #beautycare .img_frm .right li p {
+    font-size: 1.333rem; color: #fff;
+    line-height: 30px; letter-spacing: -0.02em;
+}
+/* 4. haircare */
+main #haircare {}
+main #haircare .img_frm {
+    display: flex; flex-flow: row nowrap;
+}
+main #haircare .img_frm .left {padding-right: 20px;}
+main #haircare .img_frm .left .txt {
+    margin-top: 20px; border-radius: 100px;
+    background-color: #634B60; padding: 32px 90px;
+}
+main #haircare .img_frm .left li {}
+main #haircare .img_frm .left li img {width: 100%;}
+main #haircare .img_frm .left li .title {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main #haircare .img_frm .left li .title h3 {
+    font-size: 2.369rem; font-weight: 700;
+    color: #fff; letter-spacing: -0.02em; padding-bottom: 30px;
+}
+main #haircare .img_frm .left li .title p {}
+main #haircare .img_frm .left li .title p img {width: 100%;}
+main #haircare .img_frm .left li p {
+    font-size: 1.333rem; color: #fff;
+    line-height: 30px; letter-spacing: -0.02em;
+}
+main #haircare .img_frm p {}
+main #haircare .img_frm p img {}
+/* 5. healthcare */
+main #healthcare {}
+main #healthcare .img_frm {
+    display: flex; flex-flow: row nowrap;
+}
+main #healthcare .img_frm .left .m {padding: 20px 0;}
+main #healthcare .img_frm .left {
+    display: flex; flex-flow: column nowrap;
+    margin-right: 20px;
+}
+main #healthcare .img_frm .left li {}
+main #healthcare .img_frm .left .txt {
+    border-radius: 10px;
+    background-color: #F8CACC; padding: 82px 90px;
+}
+main #healthcare .img_frm .left li .title {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main #healthcare .img_frm .left li .title h3 {
+    font-size: 2.369rem; font-weight: 700;
+    color: #fff; letter-spacing: -0.02em; padding-bottom: 30px;
+}
+main #healthcare .img_frm .left li .title p {}
+main #healthcare .img_frm .left li .title p img {width: 100%;}
+main #healthcare .img_frm .left li p {
+    font-size: 1.333rem; color: #fff;
+    line-height: 30px; letter-spacing: -0.02em;
+}
+main #healthcare .img_frm .left li img {width: 100%;}
+main #healthcare .img_frm .right {}
+main #healthcare .img_frm .right li {margin-bottom: 20px;}
+main #healthcare .img_frm .right li:last-child {margin-bottom: 0;}
+main #healthcare .img_frm .right li img {width: 100%;}

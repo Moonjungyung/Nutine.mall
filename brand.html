@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
     <title>브랜드 | 뉴틴몰</title>
         <!-- favicon -->
         <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
@@ -14,8 +16,82 @@
 </head>
 <body>
     <!-- header -->
+    <header>
+        <div class="title">
+            <h1><a href="./index.html"><img src="./img/logo.png" alt="Nutine mall"></a></h1>
+            <form action="#" method="get" id="search_frm">
+                <fieldset>
+                    <legend class="skip">검색양식</legend>
+                    <input type="search" name="search_txt" placeholder="제로 칼로리 아이스티, 티로그 아이스티" autofocus>
+                    <button type="submit" id="search_btn"><img src="./img/icon9.png" alt="검색"></button>
+                </fieldset>
+            </form>
+            <div class="title_sub">
+                <a href="#"><img src="./img/icon8.png" alt=""></a>
+                <a href="#"><img src="./img/icon7.png" alt=""></a>
+                <a href="#"><img src="./img/icon10.png" alt=""></a>
+            </div>
+        </div>
+        <nav>
+            <div class="contents_m">
+                <ul class="menu">
+                    <li class="btn"><a href="#">ALL</a></li>
+                    <li><a href="#">브랜드</a>
+                        <ul class="sub">
+                            <li><a href="#">비원츠</a></li>
+                            <li><a href="#">스칼프메드</a></li>
+                            <li><a href="#">리프레즈</a></li>
+                            <li><a href="#">티로그</a></li>
+                            <li><a href="#">홍삼진</a></li>
+                            <li><a href="#">뉴틴</a></li>
+                            <li><a href="#">컨디션</a></li>
+                            <li><a href="#">헛개수</a></li>
+                            <li><a href="#">새싹보리</a></li>
+                            <li><a href="#">클레더마</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./best.html">베스트</a>
+                        <ul class="sub">
+                            <li><a href="#">판매랭킹</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">카테고리</a>
+                        <ul class="sub">
+                            <li><a href="#">전체보기</a></li>
+                            <li><a href="#">뷰티</a></li>
+                            <li><a href="#">헤어</a></li>
+                            <li><a href="#">건강식품</a></li>
+                            <li><a href="#">음료</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="content_u">
+                <ul class="utility">
+                    <li><a href="#">이벤트&혜택</a>
+                        <ul class="sub">
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">쿠폰/멤버쉽</a></li>
+                            <li><a href="#">리뷰</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">고객센터</a>
+                        <ul class="sub">
+                            <li><a href="#">1:1문의</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">공지</a></li>
+                            <li><a href="#">뉴스</a></li>
+                            <li><a href="#">제휴/구매</a></li>
+                            <li><a href="#">문의</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav_bg"></div>
+        </nav>
+    </header>
     <main>
-        <!-- brand -->
+        <!-- 1. brand -->
         <section id="brand">
             <h2>브랜드</h2>
             <div class="category">
@@ -45,7 +121,7 @@
                         <span>뉴틴</span>
                     </a>
                 </div>
-                <div class="btn">
+                <div class="btm">
                     <a href="#">
                         <img src="./img/brand10.png" alt="">
                         <span>헛개수</span>
@@ -65,54 +141,102 @@
                 </div>
             </div>
         </section>
-        <!-- bg -->
+        <!-- 2. bg -->
         <section id="bg">
             <p class="sub_title">더 나은 일상을 위한 새로운 루틴</p>
             <h2>New Routine for a better life</h2>
             <p class="txt">뉴틴은 우리만의 방식으로 고객에게 더 나은 라이프 스타일을 위한 루틴을 제안합니다. <br>
                 뉴틴이 제안하는 Beauty, Hair, Health 루틴을 경험해보세요.</p>
-            <div class="">
-                <a href="#">Beautycare</a>
-                <a href="#">Haircare</a>
-                <a href="#">Healthcare</a>
+            <div class="btn">
+                <a href="#beautycare">Beautycare</a>
+                <a href="#haircare">Haircare</a>
+                <a href="#healthcare">Healthcare</a>
             </div>
         </section>
-        <!-- beautycare -->
+        <!-- 3. beautycare -->
         <section id="beautycare">
             <h2><em>Beautycare<span>.</span></em> <span>Routine</span></h2>
             <div class="img_frm">
                 <p><img src="./img/brand_routine1.jpg" alt=""></p>
-                <div class="right">
-                    <p><img src="./img/brand_routine2.jpg" alt=""></p>
-                    <p>
+                <ul class="right">
+                    <li><img src="./img/brand_routine2.jpg" alt=""></li>
+                    <li class="txt">
                         <div class="title">
                             <h3>뷰티케어루틴</h3>
-                            <p><img src="./img/icon11.png" alt=""></p>
+                            <p><img src="./img/icon4.png" alt=""></p>
                         </div>
                         <p>아름다움을 위한 뷰티케어루틴 <br>
                             비원츠, 클레더마</p>
-                    </p>
-                </div>
+                    </li>
+                </ul>
             </div>
         </section>
         <!-- haircare -->
         <section id="haircare">
             <h2><em>Haircare<span>.</span></em> <span>Routine</span></h2>
             <div class="img_frm">
-                <div class="left">
-                    <p><img src="./img/brand_routine4.jpg" alt=""></p>
-                    <p>
-                        <h3>헤어케어루틴</h3>
+                <ul class="left">
+                    <li><img src="./img/brand_routine4.jpg" alt=""></li>
+                    <li class="txt">
+                        <div class="title">
+                            <h3>헤어케어루틴</h3>
+                            <p><img src="img/icon11.png" alt=""></p>
+                        </div>
                         <p>유산군 발효물로 채우는 <br>
                             두피 에너지, 스칼프메드</p>
-                    </p>
-                </div>
+                    </li>
+                </ul>
                 <p><img src="./img/brand_routine3.jpg" alt=""></p>
             </div>
         </section>
         <!-- healthcare -->
-        <section id="healthcare"></section>
+        <section id="healthcare">
+            <h2><em>Haircare<span>.</span></em> <span>Routine</span></h2>
+            <div class="img_frm">
+                <ul class="left">
+                    <li class="txt">
+                        <div class="title">
+                            <h3>헬스케어루틴</h3>
+                            <p><img src="./img/icon5.png" alt=""></p>
+                        </div>
+                        <p>라이프 스타일을 바꾸는 <br>
+                            새로운 습관</p>
+                    </li>
+                    <li class="m"><img src="./img/brand_routine6.jpg" alt=""></li>
+                    <li><img src="./img/brand_routine10.jpg" alt=""></li>
+                </ul>
+                <ul class="right">
+                    <li><img src="./img/brand_routine5.jpg" alt=""></li>
+                    <li><img src="./img/brand_routine7.jpg" alt=""></li>
+                    <li><img src="./img/brand_routine8.jpg" alt=""></li>
+                    <li><img src="./img/brand_routine9.jpg" alt=""></li>
+                </ul>
+            </div>
+        </section>
     </main>
     <!-- footer -->
+    <footer>
+        <div class="top">
+            <h1><a href="#"><img src="./img/ft_logo1.png" alt="Nutine.mall"></a></h1>
+            <a href="#">회사소개</a>
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">사이트이용</a>
+            <a href="#">해외수출/제휴문의</a>
+        </div>
+        <address>
+            상호명 : 에이치케이이노엔(주) 대표자 : 곽달원 주소 : 충청북도 청주시 흥덕구 오송읍 오송생명2로 239 / / 서울지사 : 서울특별시 중구 을지로 100, 6층,7층,8층 (을지로2가, 파인에비뉴 에이동)
+            사업자등록번호 : 201-86-38914 사업자번호조회 통신판매업신고번호 : 2023-충북청주-1338
+            개인정보 보호책임자 : 진경철 FAX : 080-700-8802 TEL : 080-700-8802 E-mail : nutine@mynutine.com
+        </address>
+        <div class="btn">
+            <p class="copyright">Copyright© 2023 moonjungyung All rights reserved.</p>
+            <div class="f_logo">
+                <p>innovate New & Next</p>
+                <p><img src="./img/ft_logo2.png" alt=""></p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>
