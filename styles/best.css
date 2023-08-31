@@ -1,3 +1,4 @@
+body {overflow-x: hidden;}
 header, main, footer {min-width: 1900px;}
 /* main */
 main {padding: 0 60px;}
