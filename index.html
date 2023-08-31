@@ -99,6 +99,7 @@
                     <div class="swiper-slide slider2"><a href="#"><img src="./img/visual2.jpg" alt=""></a></div>
                     <div class="swiper-slide slider3"><a href="#"><img src="./img/visual3.jpg" alt=""></a></div>
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
         <section id="new">
@@ -615,9 +616,8 @@ const v_slider = new Swiper('#v_slider', {
     //자동재생
     autoplay:{delay:4000},
     loop:true,
-    effect:'fade', //제자리 자연스러운 변경 슬라이드
-    // direction:'vertical'
-    
+    effect:'fade',
+
 });
 const n_slider = new Swiper('#n_slider',{
     slidesPerView : 4,
